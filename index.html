@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>p7</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .row {
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background: #8c99f0;
+      height: 50vh;
+      position: relative;
+      padding-left: 40px;
+    }
+
+    .circle {
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+      background: #a5f8e5;
+      flex-shrink: 0;
+    }
+
+    .circle-right {
+      position: absolute;
+      right: -80px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      margin-left: 40px;
+      gap: 20px;
+    }
+
+    .links a {
+      color: white;
+      font-size: 28px;
+      text-decoration: underline;
+    }
+    
+    .corner {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background: white;
+      z-index: 5;
+}
+.top-left {
+      top: 0;
+      left: 0;
+}
+.bottom-right {
+      bottom: 0;
+      right: 0;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="row">
+      <div class="circle"></div>
+      <div class="links">
+        <a href=" https://anddur19.github.io/p1/">P1</a>
+        <a href="https://anddur19.github.io/p2/">P2</a>
+        <a href="https://anddur19.github.io/p2/">P3</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="links">
+        <a href="https://anddur19.github.io/P4/">P4</a>
+        <a href="https://anddur19.github.io/p5_1/t">P5_1</a>
+        <a href="https://anddur19.github.io/p5_2/">P5_2</a>
+        <a href="https://anddur19.github.io/proyecto-6/">P6</a>
+      </div>
+      <div class="circle circle-right"></div>
+    </div>
+
+  </div>
+</body>
+</html>
